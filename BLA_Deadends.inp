@@ -1,0 +1,231 @@
+[TITLE]
+blacksburg -- Bragalli, D'Ambrosio, Lee, Lodi, Toth (2008)
+
+[JUNCTIONS]
+;ID              	Elev        	Demand      	Pattern         
+ 1               	652.58      	3.29        	1               	; 
+ 2               	649.84      	3.19        	1               	; 
+ 3               	646.48      	1.63        	1               	; 
+ 4               	656.39      	0.87        	1               	; 
+ 5               	652.73      	3.38        	1               	; 
+ 6               	648.92      	3.26        	1               	; 
+ 7               	648.31      	12.65       	1               	; 
+ 8               	648.31      	0.72        	1               	; 
+ 9               	642.98      	0.68        	1               	; 
+ 10              	646.48      	3.29        	1               	; 
+ 11              	651.97      	6.36        	1               	; 
+ 12              	643.13      	1.71        	1               	; 
+ 13              	651.21      	6.36        	1               	; 
+ 14              	653.19      	1.63        	1               	; 
+ 15              	653.49      	3.25        	1               	; 
+ 16              	655.02      	3.29        	1               	; 
+ 17              	642.83      	0.65        	1               	; 
+ 18              	653.49      	6.54        	1               	; 
+ 19              	655.17      	3.29        	1               	; 
+ 20              	652.27      	0.69        	1               	; 
+ 21              	652.73      	3.24        	1               	; 
+ 22              	653.49      	0.74        	1               	; 
+ 23              	657.30      	3.25        	1               	; 
+ 24              	663.86      	6.47        	1               	; 
+ 25              	645.57      	3.23        	1               	; 
+ 26              	639.93      	3.31        	1               	; 
+ 27              	640.69      	3.22        	1               	; 
+ 28              	639.62      	1.61        	1               	; 
+ 29              	646.18      	2.64        	1               	; 
+ 30              	647.09      	3.24        	1               	; 
+
+[RESERVOIRS]
+;ID              	Head        	Pattern         
+ 0               	715.56      	                	; 
+
+[TANKS]
+;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve        	Overflow
+
+[PIPES]
+;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status
+ 1               	0               	1               	415.44      	203.20      	120.00      	0.00        	Open  	; 
+ 2               	0               	4               	59.13       	152.40      	120.00      	0.00        	Open  	; 
+ 3               	1               	2               	558.40      	203.20      	120.00      	0.00        	Open  	; 
+ 4               	1               	8               	46.02       	101.60      	120.00      	0.00        	Open  	; 
+ 5               	2               	3               	270.66      	152.40      	120.00      	0.00        	Open  	; 
+ 6               	2               	11              	47.24       	101.60      	120.00      	0.00        	Open  	; 
+ 7               	2               	13              	94.18       	101.60      	120.00      	0.00        	Open  	; 
+ 9               	3               	18              	350.83      	152.40      	120.00      	0.00        	Open  	; 
+ 10              	4               	5               	334.67      	152.40      	120.00      	0.00        	Open  	; 
+ 11              	5               	6               	176.17      	152.40      	120.00      	0.00        	Open  	; 
+ 12              	5               	21              	186.23      	152.40      	120.00      	0.00        	Open  	; 
+ 13              	6               	7               	28.96       	152.40      	120.00      	0.00        	Open  	; 
+ 15              	7               	29              	63.40       	152.40      	120.00      	0.00        	Open  	; 
+ 16              	8               	30              	33.53       	50.80       	120.00      	0.00        	Open  	; 
+ 17              	9               	10              	137.47      	152.40      	120.00      	0.00        	Open  	; 
+ 18              	9               	12              	17.98       	50.80       	120.00      	0.00        	Open  	; 
+ 19              	9               	25              	126.80      	152.40      	120.00      	0.00        	Open  	; 
+ 20              	11              	15              	92.35       	304.80      	120.00      	0.00        	Open  	; 
+ 22              	13              	14              	233.48      	203.20      	120.00      	0.00        	Open  	; 
+ 24              	15              	16              	231.04      	254.00      	120.00      	0.00        	Open  	; 
+ 25              	15              	17              	307.54      	25.40       	120.00      	0.00        	Open  	; 
+ 26              	18              	19              	124.36      	152.40      	120.00      	0.00        	Open  	; 
+ 28              	21              	20              	34.44       	25.40       	120.00      	0.00        	Open  	; 
+ 29              	22              	13              	213.67      	152.40      	120.00      	0.00        	Open  	; 
+ 30              	23              	22              	106.99      	152.40      	120.00      	0.00        	Open  	; 
+ 31              	24              	19              	294.74      	152.40      	120.00      	0.00        	Open  	; 
+ 32              	26              	9               	82.60       	76.20       	120.00      	0.00        	Open  	; 
+ 33              	26              	27              	96.62       	152.40      	120.00      	0.00        	Open  	; 
+ 34              	26              	28              	129.24      	152.40      	120.00      	0.00        	Open  	; 
+ 35              	29              	26              	222.50      	152.40      	120.00      	0.00        	Open  	; 
+
+[PUMPS]
+;ID              	Node1           	Node2           	Parameters
+
+[VALVES]
+;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
+
+[TAGS]
+
+[DEMANDS]
+;Junction        	Demand      	Pattern         	Category
+
+[STATUS]
+;ID              	Status/Setting
+
+[PATTERNS]
+;ID              	Multipliers
+;Demand Pattern
+ 1               	0.3         	0.35        	0.4         	0.5         	0.55        	0.7         
+ 1               	0.75        	0.6         	0.55        	0.45        	0.5         	0.45        
+ 1               	0.4         	0.35        	0.3         	0.35        	0.44        	0.6         
+ 1               	0.8         	0.9         	1           	0.8         	0.6         	0.4         
+
+[CURVES]
+;ID              	X-Value     	Y-Value
+
+[CONTROLS]
+
+
+
+
+
+
+[RULES]
+
+
+
+
+
+
+[ENERGY]
+ Global Efficiency  	75
+ Global Price       	0
+ Demand Charge      	0
+
+[EMITTERS]
+;Junction        	Coefficient
+
+[QUALITY]
+;Node            	InitQual
+
+[SOURCES]
+;Node            	Type        	Quality     	Pattern
+
+[REACTIONS]
+;Type     	Pipe/Tank       	Coefficient
+
+
+[REACTIONS]
+ Order Bulk            	1
+ Order Tank            	1
+ Order Wall            	1
+ Global Bulk           	0
+ Global Wall           	0
+ Limiting Potential    	0
+ Roughness Correlation 	0
+
+[MIXING]
+;Tank            	Model
+
+[TIMES]
+ Duration           	24:00
+ Hydraulic Timestep 	1:00 
+ Quality Timestep   	0:05 
+ Pattern Timestep   	1:00 
+ Pattern Start      	0:00
+ Report Timestep    	1:00 
+ Report Start       	0:00
+ Start ClockTime    	12 am
+ Statistic          	NONE
+
+[REPORT]
+ Status             	No
+ Summary            	No
+ Page               	0
+
+[OPTIONS]
+ Units              	LPS
+ Headloss           	H-W
+ Specific Gravity   	1
+ Viscosity          	1
+ Trials             	40
+ Accuracy           	0.001
+ CHECKFREQ          	2
+ MAXCHECK           	10
+ DAMPLIMIT          	0
+ Unbalanced         	Continue 10
+ Pattern            	2
+ Demand Multiplier  	1.0
+ Emitter Exponent   	0.5
+ Quality            	None mg/L
+ Diffusivity        	1
+ Tolerance          	0.01
+
+[COORDINATES]
+;Node            	X-Coord           	Y-Coord
+1               	4234.930          	4513.140          
+2               	6939.720          	7557.960          
+3               	8531.680          	9644.510          
+4               	200.930           	3508.500          
+5               	1267.390          	4497.680          
+6               	1916.540          	5146.830          
+7               	2720.250          	5780.530          
+8               	3400.310          	5224.110          
+9               	4806.800          	8114.370          
+10              	5363.210          	7635.240          
+11              	5919.630          	8315.300          
+12              	5301.390          	8639.880          
+13              	6460.590          	6429.680          
+14              	6429.680          	4559.510          
+15              	6707.880          	9211.750          
+16              	5734.160          	9907.260          
+17              	7573.420          	10154.560         
+18              	9026.280          	6491.500          
+19              	10540.960         	6491.500          
+20              	2812.980          	4636.790          
+21              	2009.270          	3848.530          
+22              	7619.780          	6429.680          
+23              	7697.060          	4574.960          
+24              	9814.530          	4930.450          
+25              	4095.830          	8825.350          
+26              	4173.110          	7387.940          
+27              	4729.520          	6939.720          
+28              	3384.850          	8129.830          
+29              	3400.310          	6615.150          
+30              	4018.550          	6151.470          
+0               	1808.350          	2411.130          
+
+[VERTICES]
+;Link            	X-Coord           	Y-Coord
+
+[LABELS]
+;X-Coord             Y-Coord             Label & Anchor Node
+5308.219          	2442.922          	"R1"	
+6221.461          	1244.292          	"R2"	
+5068.493          	1284.247          	"R3"	
+6980.594          	176.941           	"R4"	
+5291.096          	62.785            	"R5"	
+
+[BACKDROP]
+  DIMENSIONS  	0.000             	0.000             	10000.000         	10000.000         
+ UNITS          	None
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+[END]
