@@ -13,10 +13,10 @@
 ### References
 <a id="1">[1]</a> 
 Rossman, L. A. and Woo, H. and Tryby, M. and Shang, F. and Janke, R. and Haxton, T. (2020). 
-EPANET 2.2 User Manual Water Infrastructure Division, Center for Environmental Solutions and Emergency Response. 
+"EPANET 2.2 User Manual Water Infrastructure Division, Center for Environmental Solutions and Emergency Response." 
 
 <a id="1">[2]</a> 
 Q. Wang, M. Guidolin, D. Savic, and Z. Kapelan (2015). 
-Two-Objective Design of Benchmark Problems of a Water Distribution System via MOEAs: Towards the Best-Known Approximation of the True Pareto Front. 
+"Two-Objective Design of Benchmark Problems of a Water Distribution System via MOEAs: Towards the Best-Known Approximation of the True Pareto Front." 
 Journal of Water Resources Planning and Management, vol. 141, no. 3, p. 04014060.
 
