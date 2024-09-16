@@ -1,4 +1,4 @@
-# BenchmarksNetworks_DBPsPaper
+# BenchmarkNetworks_DBPsPaper
 ## Paper title: "Disinfectant Control in Drinking Water Networks: Integrating Advection-Dispersion-Reaction Models and Byproduct Constraints"
 ## We provide herein the .inp files for the test networks considered in the Case Studies section of the paper.
 ### These networks [[1,2]](#1) include:
